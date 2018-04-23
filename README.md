@@ -7,5 +7,5 @@ current policy by following the policy gradient
 
 ## TODO
 
-Batch Normalization 
-Prioritized Experience Replay (https://arxiv.org/abs/1511.05952): to replay important transitions from reply Memory more frequently
+- Batch Normalization 
+- Prioritized Experience Replay (https://arxiv.org/abs/1511.05952): to replay important transitions from reply Memory more frequently
