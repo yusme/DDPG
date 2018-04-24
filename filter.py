@@ -5,11 +5,7 @@ import numpy as np
 
 def makeFilteredEnv(env):
 
-  #--------------------------------------------------------
-  """ crate a new environment class with actions and states normalized to [-1,1] """
-  #--------------------------------------------------------
-
-
+  
   acsp = env.action_space
   obsp = env.observation_space
 
@@ -36,24 +32,24 @@ def makeFilteredEnv(env):
         self.o_c = np.zeros_like(obsp.high)
         self.o_sc = np.ones_like(obsp.high)
 
-      # Action space
+     
       h = acsp.high
       l = acsp.low
       sc = (h-l)
       self.a_c = (h+l)/2.
       self.a_sc = sc / 2.
 
-      # Rewards
+     
       self.r_sc = 1.
       self.r_c = 0.
 
-      # Special cases
+      
       if self.spec.id == "Reacher-v1":
         self.o_sc[6] = 40.
         self.o_sc[7] = 20.
         self.r_sc = 100.
 
-      # Check and assign transformed spaces
+   
       self.observation_space = gym.spaces.Box(self.filter_observation(obsp.low),
                                               self.filter_observation(obsp.high))
       self.action_space = gym.spaces.Box(-np.ones_like(acsp.high),np.ones_like(acsp.high))
