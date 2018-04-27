@@ -23,5 +23,5 @@ current policy by following the policy gradient
 
 - [Continuous control with Deep Reinforcement Learning (by TP Lillicrap)](http://arxiv.org/abs/1509.02971)
 - (Human-level control through deep reinforcement learning (by V. Mnih ))[https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf]
-- [Deterministic Policy Gradients (by TP D. Silver )][http://proceedings.mlr.press/v32/silver14.pdf]
+- (Deterministic Policy Gradients (by TP D. Silver ))[http://proceedings.mlr.press/v32/silver14.pdf]
 
