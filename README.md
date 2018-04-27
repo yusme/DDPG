@@ -1,4 +1,6 @@
-# DDPG
+# DDPG [http://arxiv.org/abs/1509.02971](Continuous control with deep reinforcement learning)
+
+[http://arxiv.org/abs/1509.02971](http://arxiv.org/abs/1509.02971)
 
 The goal of these algorithms is to perform policy iteration
 by alternatively performing policy evaluation 
