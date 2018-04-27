@@ -16,7 +16,12 @@ current policy by following the policy gradient
 
 
 ## Reference 
-- [http://arxiv.org/abs/1509.02971](Continuous control with Deep Reinforcement Learning) (by TP Lillicrap )
+
+[Contributing New Environments](https://github.com/openai/roboschool/wiki/Contributing-New-Environments)
+
+[Help Wanted](https://github.com/openai/roboschool/wiki/Help-Wanted)
+
+- [Continuous control with Deep Reinforcement Learning (by TP Lillicrap)](http://arxiv.org/abs/1509.02971)
 - [https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf](Human-level control through deep reinforcement learning) (by V. Mnih )
 - [http://proceedings.mlr.press/v32/silver14.pdf](Deterministic Policy Gradients (by TP D. Silver ))
 
