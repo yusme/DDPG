@@ -223,23 +223,6 @@ class PolicyNetwork:
 
 
 
-        #loss = tf.reduce_mean(tf.square(y-ydata))
-       # optimizer = tf.train.AdamOptimizer(learning_rate)
-        #optimizer.compute_gradients(loss, self.theta)
-            #tf.train.GradientDescentOptimizer(0.5)
-        #train = optimizer.minimize(loss)
-
-
-
-        # the actor computer the gradient of the expectete reward
-
-        #correct_predition = tf.equal(self.y_pred_cls, self.y_true_cls)
-        #accuracy = tf.reduce_mean(tf.cast(correct_predition, tf.float32))
-        #cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=self.layers3, labels=self.y_true)
-        #cost = tf.reduce_mean(self.theta, 0)
-        #self.optimizer = tf.train.AdamOptimizer(learning_rate).apply_gradients()
-        #return "action"
-
 
 
 
