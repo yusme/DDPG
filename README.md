@@ -22,6 +22,15 @@ current policy by following the policy gradient
 - [Human-level control through deep reinforcement learning (by V. Mnih )](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf)
 
 
-<img src="https://github.com/yusme/Gaussian-Process/blob/master/3D33.png" width="100">
-<img src="https://github.com/yusme/Gaussian-Process/blob/master/3D34.png" width="100">
-<img src="https://github.com/yusme/Gaussian-Process/blob/master/3D35.png" width="100">
+
+<table>
+  <tr>
+    <td><img src="https://github.com/yusme/DDPG/blob/master/3D33.png" width="300"></td>     
+    <td><img src="https://github.com/yusme/DDPG/blob/master/3D35.png" width="300"></td>
+    <td><img src="https://github.com/yusme/DDPG/blob/master/episode2D.png" width="300"></td>
+  </tr>
+</table>
+
+
+
+
